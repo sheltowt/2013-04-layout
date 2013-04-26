@@ -1,3 +1,74 @@
 body{
   /* rules go here */
 }
+
+.headerNav {
+  text-align: center;
+  float: left;
+  border-bottom: 1px solid #d4cdc1;
+  padding: 20px 30px 10px;
+  width: 100%;
+}
+
+.headerNav > ul{
+  list-style-type: none;
+
+}
+
+nav a.logo{
+
+}
+
+.textBody{
+  padding-top: 100px;
+  text-align: center;
+}
+
+strong{
+  font-weight: bold;
+  font-size 16px;
+}
+
+a:link{
+  color: #06c;
+}
+
+li{
+  list-style-type: none;
+  display: inline;
+  float: left;
+  margin-right: 30px;
+  font-family: "ProximaNova";
+}
+
+.bubbles{
+  background-image: url('signup.png');
+  height: 560px;
+  width: 950px;
+}
+
+.woman{
+  padding-top: 50px;
+}
+
+.formInput{
+  padding-top: 150px;
+  padding-right: 15px;
+  float: right;
+  width: 360px;
+  height: 265px;
+}
+
+span{
+  position: absolute;
+
+}
+
+input{
+  width: 100%;
+}
+
+label {
+  padding-top: 40px;
+  margin-top: 0 auto 15px;
+}
