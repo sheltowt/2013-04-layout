@@ -1,3 +1,74 @@
 body{
   /* rules go here */
 }
+.leftNav{
+  width:26%;
+  height:100%;
+  position: fixed;
+  border-right: 1px solid grey ;
+}
+
+/*hr {
+  margin-left: 26.5%;
+}*/
+
+.dateHeader{
+  margin-left: 26.5%;
+  height:40px;
+  text-align: left;
+  border-bottom: 1px solid grey;
+  display: block;
+  font-family: "freight-sans-pro",sans-serif;
+  position: relative;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 23px;
+  padding: 30px 15px 20px 30px;
+
+}
+
+.rightContent{
+  margin-left: 27%;
+  padding-left: 5px;
+  text-align: left;
+}
+
+.logo{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+h1,h2, h3{
+  text-align: left;
+  margin-left:20px;
+  font-family: 'proxima-nova',sans-serif;
+}
+
+h1{
+  font-weight:bold;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+h2{
+  font-size: 13px;
+  color:grey;
+}
+
+h3{
+  font-size: 15px;
+  font-weight: 400;
+}
+
+p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: #4d4d4d;
+  font-family: 'proxima-nova',sans-serif;
+  font-weight: 400;
+}
